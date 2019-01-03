@@ -1,0 +1,37 @@
+p { 
+font-family: "Cominc Sans MS, "Tw Cen MT"; 
+color: indigo; 
+}
+
+.main {
+  margin: auto;
+  width: 100%;
+  height: 50%;
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.productPrice, .productQuantity, .productTotalCost, #totalCost {
+  text-align: center; text-valign: top;
+}
+
+#grocerylist {
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(86, 142, 235);
+  border-collapse: collapse;
+}
+
+#grocerylist td {
+  border: 1px solid rgb(57, 133, 149);
+}
+
+#grocerylist input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: inherit;
+}
